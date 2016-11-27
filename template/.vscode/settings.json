@@ -1,0 +1,10 @@
+{
+  "search.exclude": {
+    "lib": true,
+    "node_modules": true
+  },
+  "tslint.configFile": "./tslint.json",
+  "tslint.enable": true,
+  "tslint.ignoreDefinitionFiles": false,
+  "typescript.tsdk": "./node_modules/typescript/lib"
+}

@@ -1,0 +1,31 @@
+{
+  "name": "tipi-template-tslib",
+  "version": "0.0.0",
+  "description": "This is a tipi-cli template",
+  "license": "MIT",
+  "author": "Clemens Akens <clebert@me.com>",
+  "repository": {
+    "url": "https://github.com/clebert/tipi-template-tslib.git",
+    "type": "git"
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-customizable"
+    },
+    "cz-customizable": {
+      "config": "template/.cz-config.js"
+    }
+  },
+  "scripts": {
+    "commit": "git-cz",
+    "commitmsg": "conventional-changelog-lint -e",
+    "release": "standard-version"
+  },
+  "devDependencies": {
+    "commitizen": "2.8.6",
+    "conventional-changelog-lint": "1.1.0",
+    "cz-customizable": "4.0.0",
+    "husky": "0.11.9",
+    "standard-version": "3.0.0"
+  }
+}
