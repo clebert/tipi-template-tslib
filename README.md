@@ -12,7 +12,7 @@ npm install --global tipi-cli
 ```
 
 ```sh
-tipi --template=tslib new-project
+tipi create "new-project" --template "tslib" --author "Clemens Akens" --email "clebert@me.com" --description "TODO" --user "clebert"
 ```
 
 ## Development
