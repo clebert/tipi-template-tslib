@@ -24,6 +24,12 @@ Installing the dev dependencies:
 npm install
 ```
 
+Compiling the sources:
+
+```sh
+npm run compile
+```
+
 Running the tests:
 
 ```sh
