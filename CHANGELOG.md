@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.3.0"></a>
+# [0.3.0](https://github.com/clebert/tipi-template-tslib/compare/v0.2.0...v0.3.0) (2016-12-03)
+
+
+### Features
+
+* **template:** add "package" scope to cz config ([cb299c1](https://github.com/clebert/tipi-template-tslib/commit/cb299c1))
+* **template:** update ts-config version to 0.3.0 ([4281f96](https://github.com/clebert/tipi-template-tslib/commit/4281f96))
+
+
+
 <a name="0.2.0"></a>
 # [0.2.0](https://github.com/clebert/tipi-template-tslib/compare/v0.1.1...v0.2.0) (2016-12-03)
 
