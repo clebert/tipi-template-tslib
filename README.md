@@ -17,22 +17,30 @@ tipi create "new-project" --template "tslib" --author "Clemens Akens" --email "c
 
 ## Development
 
-Installing the dev dependencies:
+### Installing the dev dependencies
 
 ```sh
 npm install
 ```
 
-Committing a new change:
+### Committing a new change
 
 ```sh
-npm run commit
+npm run cz
 ```
 
-Releasing a new version:
+### Publishing a new version
 
 ```sh
 npm run release
+```
+
+```sh
+git push --follow-tags origin master
+```
+
+```sh
+npm publish
 ```
 
 ---
