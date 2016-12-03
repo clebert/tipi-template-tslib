@@ -13,7 +13,7 @@
       "path": "node_modules/cz-customizable"
     },
     "cz-customizable": {
-      "config": "template/.cz-config.js"
+      "config": ".cz-config.js"
     }
   },
   "scripts": {
