@@ -2,6 +2,23 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.2.0"></a>
+# [0.2.0](https://github.com/clebert/tipi-template-tslib/compare/v0.1.1...v0.2.0) (2016-12-03)
+
+
+### Features
+
+* **template:** add .envrc file ([6fd9684](https://github.com/clebert/tipi-template-tslib/commit/6fd9684))
+* **template:** add typescript formatter and rules ([258fed6](https://github.com/clebert/tipi-template-tslib/commit/258fed6))
+* **template:** rework all npm scripts and update npm dependencies ([6fcbf2c](https://github.com/clebert/tipi-template-tslib/commit/6fcbf2c))
+* **template:** rework development section in readme ([c0f20e5](https://github.com/clebert/tipi-template-tslib/commit/c0f20e5))
+
+### Reverts
+
+* add a files entry to the package.json ([3b9a015](https://github.com/clebert/tipi-template-tslib/commit/3b9a015))
+
+
+
 <a name="0.1.1"></a>
 ## [0.1.1](https://github.com/clebert/tipi-template-tslib/compare/v0.1.0...v0.1.1) (2016-12-03)
 
