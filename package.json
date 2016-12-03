@@ -1,6 +1,6 @@
 {
   "name": "tipi-template-tslib",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "This is a tipi-cli template",
   "license": "MIT",
   "author": "Clemens Akens <clebert@me.com>",
