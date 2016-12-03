@@ -16,25 +16,6 @@
       "config": ".cz-config.js"
     }
   },
-  "files": [
-    "template/LICENSE",
-    "template/README.md",
-    "template/package.json",
-    "template/tsconfig.json",
-    "template/tslint.json",
-    "template/.conventional-changelog-lintrc",
-    "template/.cz-config.js",
-    "template/.editorconfig",
-    "template/.gitignore",
-    "template/.node-version",
-    "template/.npmignore",
-    "template/.npmrc",
-    "template/.nvmrc",
-    "template/.travis.yml",
-    "template/.vscode",
-    "template/.vscode/extensions.json",
-    "template/.vscode/settings.json"
-  ],
   "scripts": {
     "commit": "git-cz",
     "commitmsg": "conventional-changelog-lint -e",
