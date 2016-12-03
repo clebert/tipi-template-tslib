@@ -18,34 +18,54 @@ TODO
 
 ## Development
 
-Installing the dev dependencies:
+### Installing the dev dependencies
 
 ```sh
 npm install
 ```
 
-Compiling the sources:
+### Compiling the sources
 
 ```sh
 npm run compile
 ```
 
-Running the tests:
+### Linting the sources
+
+```sh
+npm run lint
+```
+
+### Running the tests
 
 ```sh
 npm test
 ```
 
-Committing a new change:
+### Formatting the sources
 
 ```sh
-npm run commit
+npm run format
 ```
 
-Releasing a new version:
+### Committing a new change
+
+```sh
+npm run cz
+```
+
+### Publishing a new version
 
 ```sh
 npm run release
+```
+
+```sh
+git push --follow-tags origin master
+```
+
+```sh
+npm publish
 ```
 
 ---
