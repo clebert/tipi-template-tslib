@@ -4,7 +4,7 @@ module.exports = {
   allowBreakingChanges: ['feat'],
   allowCustomScopes: false,
   scopes: [
-    '',
+    'package',
     'template'
   ],
   types: [
