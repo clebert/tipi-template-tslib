@@ -33,6 +33,7 @@
     "standard-version": "3.0.0",
     "ts-config": "0.2.0",
     "tslint": "4.0.2",
-    "typescript": "2.1.1"
+    "typescript": "2.1.1",
+    "typescript-formatter": "4.0.1"
   }
 }
