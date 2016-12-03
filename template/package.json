@@ -17,20 +17,26 @@
     }
   },
   "scripts": {
-    "clean": "rimraf lib",
-    "commit": "git-cz",
     "commitmsg": "conventional-changelog-lint -e",
-    "compile": "npm test && npm run clean && tsc --project .",
-    "release": "npm run compile && standard-version",
-    "test": "tslint 'src/**/*.{ts,tsx}'"
+    "precompile": "rimraf lib",
+    "compile": "tsc --project .",
+    "cz": "git-cz",
+    "format": "tsfmt --replace",
+    "lint": "tslint -s node_modules/custom-tslint-formatters/formatters -t grouped 'src/**/*.{ts,tsx}' 'types/**/*.d.ts'",
+    "prerelease": "git checkout master && npm prune && npm install && npm run lint && tsfmt --verify && npm test",
+    "release": "standard-version",
+    "pretest": "npm run compile",
+    "test": "echo 'no tests found'",
+    "watch:compile": "npm run compile -- --watch"
   },
   "devDependencies": {
     "commitizen": "2.8.6",
     "conventional-changelog-lint": "1.1.0",
+    "custom-tslint-formatters": "2.0.0",
     "cz-customizable": "4.0.0",
     "husky": "0.11.9",
     "rimraf": "2.5.4",
-    "standard-version": "3.0.0",
+    "standard-version": "4.0.0",
     "ts-config": "0.2.0",
     "tslint": "4.0.2",
     "typescript": "2.1.1",
