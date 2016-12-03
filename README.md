@@ -5,13 +5,13 @@
 
 This is a [tipi-cli][4] template.
 
-## Usage
-
-### Installing tipi-cli
+## Installation
 
 ```sh
 npm install --global tipi-cli
 ```
+
+## Usage
 
 ### Creating a new project using the template from github
 
