@@ -7,9 +7,29 @@ This is a [tipi-cli][4] template.
 
 ## Usage
 
+### Installing tipi-cli
+
 ```sh
 npm install --global tipi-cli
 ```
+
+### Creating a new project using the template from github
+
+```sh
+curl -L https://github.com/clebert/tipi-template-tslib/archive/master.tar.gz | tar -xf- --strip 1 */template
+```
+
+```sh
+tipi create "new-project" --template ./template --author "Clemens Akens" --email "clebert@me.com" --description "TODO" --user "clebert"
+```
+
+```sh
+rm -rf template
+```
+
+### Creating a new project using the template from npm
+
+This procedure is currently [not recommended][5].
 
 ```sh
 tipi create "new-project" --template "tslib" --author "Clemens Akens" --email "clebert@me.com" --description "TODO" --user "clebert"
@@ -51,3 +71,4 @@ Built by (c) Clemens Akens. Released under the MIT license.
 [2]: https://img.shields.io/badge/commitizen-friendly-brightgreen.svg
 [3]: http://commitizen.github.io/cz-cli/
 [4]: https://github.com/marionebl/tipi-cli#usage
+[5]: https://github.com/clebert/tipi-template-tslib/issues/2
