@@ -17,8 +17,9 @@
     }
   },
   "scripts": {
-    "commit": "git-cz",
     "commitmsg": "conventional-changelog-lint -e",
+    "cz": "git-cz",
+    "prerelease": "git checkout master && npm prune && npm install",
     "release": "standard-version"
   },
   "devDependencies": {
