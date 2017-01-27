@@ -2,6 +2,25 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.5.0"></a>
+# [0.5.0](https://github.com/clebert/tipi-template-tslib/compare/v0.4.0...v0.5.0) (2017-01-27)
+
+
+### Bug Fixes
+
+* **template:** add tslib as dependency ([43047f9](https://github.com/clebert/tipi-template-tslib/commit/43047f9))
+
+### Features
+
+* **template:** add .gitkeep file to src/ directory ([b10d914](https://github.com/clebert/tipi-template-tslib/commit/b10d914))
+* **template:** add engines field to package.json ([ec044d2](https://github.com/clebert/tipi-template-tslib/commit/ec044d2))
+* **template:** improve formatter settings ([0b186a9](https://github.com/clebert/tipi-template-tslib/commit/0b186a9))
+* **template:** improve README ([c7bb5cf](https://github.com/clebert/tipi-template-tslib/commit/c7bb5cf))
+* **template:** switch to node 7, update deps and improve scripts ([ee37908](https://github.com/clebert/tipi-template-tslib/commit/ee37908))
+* **template:** update ts-config to 1.0.0 ([ff8ade5](https://github.com/clebert/tipi-template-tslib/commit/ff8ade5))
+
+
+
 <a name="0.4.0"></a>
 # [0.4.0](https://github.com/clebert/tipi-template-tslib/compare/v0.3.0...v0.4.0) (2016-12-03)
 

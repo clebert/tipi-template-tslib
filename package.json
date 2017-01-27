@@ -1,6 +1,6 @@
 {
   "name": "tipi-template-tslib",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "description": "This is a tipi-cli template",
   "license": "MIT",
   "author": "Clemens Akens <clebert@me.com>",
@@ -8,8 +8,8 @@
     "type": "git",
     "url": "https://github.com/clebert/tipi-template-tslib.git"
   },
-  "engines" : {
-    "node" : ">=7"
+  "engines": {
+    "node": ">=7"
   },
   "config": {
     "commitizen": {
