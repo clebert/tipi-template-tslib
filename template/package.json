@@ -26,7 +26,7 @@
     "build": "tsc --project .",
     "cz": "git-cz",
     "format": "tsfmt --replace",
-    "lint": "tslint --config tslint-type-info.json --project tsconfig.json --type-check --formatters-dir node_modules/custom-tslint-formatters/formatters --format grouped 'src/**/*.{ts,tsx}' 'types/**/*.d.ts'",
+    "lint": "tslint --config tslint-type-check.json --project tsconfig.json --type-check --formatters-dir node_modules/custom-tslint-formatters/formatters --format grouped",
     "prerelease": "git checkout master && npm prune && npm install && npm test",
     "release": "standard-version",
     "pretest": "npm run build",
@@ -46,7 +46,7 @@
     "npm-run-all": "4.0.1",
     "rimraf": "2.5.4",
     "standard-version": "4.0.0",
-    "ts-config": "0.9.0",
+    "ts-config": "1.0.0",
     "tslint": "4.4.2",
     "typescript": "2.1.5",
     "typescript-formatter": "4.0.1"
