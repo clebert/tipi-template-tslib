@@ -34,6 +34,9 @@
     "watch": "npm-run-all --parallel watch:*",
     "watch:build": "npm run build -- --watch"
   },
+  "dependencies": {
+    "tslib": "1.5.0"
+  },
   "devDependencies": {
     "commitizen": "2.9.5",
     "conventional-changelog-lint": "1.1.0",
