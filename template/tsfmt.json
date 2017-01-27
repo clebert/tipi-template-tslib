@@ -5,7 +5,7 @@
   "insertSpaceAfterKeywordsInControlFlowStatements": true,
   "insertSpaceAfterFunctionKeywordForAnonymousFunctions": true,
   "insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis": false,
-  "insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": true,
+  "insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": false,
   "insertSpaceAfterOpeningAndBeforeClosingTemplateStringBraces": false,
   "insertSpaceAfterOpeningAndBeforeClosingJsxExpressionBraces": false,
   "placeOpenBraceOnNewLineForFunctions": false,
