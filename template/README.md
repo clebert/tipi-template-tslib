@@ -24,16 +24,10 @@ TODO
 npm install
 ```
 
-### Compiling the sources
+### Building the sources
 
 ```sh
-npm run compile
-```
-
-### Linting the sources
-
-```sh
-npm run lint
+npm run build
 ```
 
 ### Running the tests

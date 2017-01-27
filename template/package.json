@@ -5,8 +5,8 @@
   "license": "MIT",
   "author": "${author} <${email}>",
   "repository": {
-    "url": "https://github.com/${user}/${name}.git",
-    "type": "git"
+    "type": "git",
+    "url": "https://github.com/${user}/${name}.git"
   },
   "config": {
     "commitizen": {
@@ -18,31 +18,31 @@
   },
   "scripts": {
     "commitmsg": "conventional-changelog-lint -e",
-    "prepush": "npm run ci",
-    "preci": "npm prune && npm install",
-    "ci": "npm run lint && tsfmt --verify && npm test",
-    "precompile": "rimraf lib",
-    "compile": "tsc --project .",
+    "prepush": "npm prune && npm install && npm test",
+    "prebuild": "rimraf lib",
+    "build": "tsc --project .",
     "cz": "git-cz",
     "format": "tsfmt --replace",
-    "lint": "tslint -s node_modules/custom-tslint-formatters/formatters -t grouped 'src/**/*.{ts,tsx}' 'types/**/*.d.ts'",
-    "prerelease": "git checkout master && npm run ci",
+    "lint": "tslint --config tslint-type-info.json --project tsconfig.json --type-check --formatters-dir node_modules/custom-tslint-formatters/formatters --format grouped 'src/**/*.{ts,tsx}' 'types/**/*.d.ts'",
+    "prerelease": "git checkout master && npm prune && npm install && npm test",
     "release": "standard-version",
-    "pretest": "npm run compile",
-    "test": "echo 'no tests found'",
-    "watch:compile": "npm run compile -- --watch"
+    "pretest": "npm run build",
+    "test": "npm run lint && tsfmt --verify",
+    "watch": "npm-run-all --parallel watch:*",
+    "watch:build": "npm run build -- --watch"
   },
   "devDependencies": {
-    "commitizen": "2.8.6",
+    "commitizen": "2.9.5",
     "conventional-changelog-lint": "1.1.0",
     "custom-tslint-formatters": "2.0.0",
     "cz-customizable": "4.0.0",
-    "husky": "0.11.9",
+    "husky": "0.13.1",
+    "npm-run-all": "4.0.1",
     "rimraf": "2.5.4",
     "standard-version": "4.0.0",
-    "ts-config": "0.3.0",
-    "tslint": "4.0.2",
-    "typescript": "2.1.1",
+    "ts-config": "0.9.0",
+    "tslint": "4.4.2",
+    "typescript": "2.1.5",
     "typescript-formatter": "4.0.1"
   }
 }
