@@ -24,10 +24,10 @@ TODO
 npm install
 ```
 
-### Building the sources
+### Watching the sources
 
 ```sh
-npm run build
+npm run watch
 ```
 
 ### Running the tests
