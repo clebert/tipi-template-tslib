@@ -8,6 +8,9 @@
     "type": "git",
     "url": "https://github.com/clebert/tipi-template-tslib.git"
   },
+  "engines" : {
+    "node" : ">=7"
+  },
   "config": {
     "commitizen": {
       "path": "node_modules/cz-customizable"
