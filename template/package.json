@@ -9,7 +9,7 @@
     "url": "https://github.com/${user}/${name}.git"
   },
   "engines": {
-    "node": ">=7"
+    "node": ">=6"
   },
   "config": {
     "commitizen": {
