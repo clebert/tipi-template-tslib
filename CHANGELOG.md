@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.8.0"></a>
+# [0.8.0](https://github.com/clebert/tipi-template-tslib/compare/v0.7.0...v0.8.0) (2017-01-29)
+
+
+### Features
+
+* **template:** remove prepush git hook ([c9cceea](https://github.com/clebert/tipi-template-tslib/commit/c9cceea))
+* **template:** set node version to 6 ([3be1ea8](https://github.com/clebert/tipi-template-tslib/commit/3be1ea8))
+
+
+
 <a name="0.7.0"></a>
 # [0.7.0](https://github.com/clebert/tipi-template-tslib/compare/v0.6.0...v0.7.0) (2017-01-29)
 
