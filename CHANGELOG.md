@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.11.0"></a>
+# [0.11.0](https://github.com/clebert/tipi-template-tslib/compare/v0.10.0...v0.11.0) (2017-02-04)
+
+
+### Bug Fixes
+
+* **template:** add qoutes around the author placeholder ([3937aab](https://github.com/clebert/tipi-template-tslib/commit/3937aab))
+
+### Features
+
+* **template:** add main entry and improve “hello world” scenario ([ee3db2e](https://github.com/clebert/tipi-template-tslib/commit/ee3db2e))
+
+
+
 <a name="0.10.0"></a>
 # [0.10.0](https://github.com/clebert/tipi-template-tslib/compare/v0.9.0...v0.10.0) (2017-02-04)
 
