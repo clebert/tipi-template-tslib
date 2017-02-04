@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.10.0"></a>
+# [0.10.0](https://github.com/clebert/tipi-template-tslib/compare/v0.9.0...v0.10.0) (2017-02-04)
+
+
+### Features
+
+* **template:** add example bin implementation ([6e03ad3](https://github.com/clebert/tipi-template-tslib/commit/6e03ad3))
+
+
+
 <a name="0.9.0"></a>
 # [0.9.0](https://github.com/clebert/tipi-template-tslib/compare/v0.8.0...v0.9.0) (2017-01-31)
 
