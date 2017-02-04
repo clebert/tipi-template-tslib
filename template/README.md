@@ -21,9 +21,11 @@ Usage
 Options
   --help, -h     Usage information
   --version, -v  Version information
+  --name <s>     Greets <s>
 
 Examples
   $ ${name}
+  $ ${name} --name ${author}
 ```
 
 ## Development
@@ -75,7 +77,7 @@ npm publish
 ### Starting in debug mode
 
 ```sh
-DEBUG=* node ./lib/index.js
+DEBUG=* node ./dist/bin.js
 ```
 
 ---

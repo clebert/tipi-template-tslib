@@ -3,8 +3,9 @@
 import createDebug = require('debug');
 
 import * as meow from 'meow';
+import { hello } from './main';
 
-const debug = createDebug('index');
+const debug = createDebug('bin');
 
 const help = `
   Usage
@@ -13,9 +14,11 @@ const help = `
   Options
     --help, -h     Usage information
     --version, -v  Version information
+    --name <s>     Greets <s>
 
   Examples
     $ ${name}
+    $ ${name} --name ${author}
 `;
 
 const args = meow(help, {
@@ -25,7 +28,7 @@ const args = meow(help, {
   }
 });
 
-const knownFlags: string[] = [];
+const knownFlags = ['name'];
 
 for (const flag of Object.keys(args.flags)) {
   if (knownFlags.every(knownFlag => knownFlag !== flag)) {
@@ -37,4 +40,4 @@ for (const flag of Object.keys(args.flags)) {
   }
 }
 
-console.log('Hello, World!');
+console.log(hello(args.flags['name']));

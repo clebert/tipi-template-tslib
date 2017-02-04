@@ -8,7 +8,8 @@
     "type": "git",
     "url": "https://github.com/${user}/${name}.git"
   },
-  "bin": "./lib/index.js",
+  "bin": "./dist/bin.js",
+  "main": "./dist/main.js",
   "engines": {
     "node": ">=6"
   },
@@ -25,9 +26,9 @@
   },
   "scripts": {
     "commitmsg": "conventional-changelog-lint -e",
-    "prebuild": "rm -rf lib/*",
+    "prebuild": "rm -rf dist/*",
     "build": "tsc --project .",
-    "postbuild": "chmod +x lib/index.js",
+    "postbuild": "chmod +x dist/bin.js",
     "check": "tsfmt --verify && tslint --config tslint-type-check.json --project tsconfig.json --type-check --formatters-dir node_modules/custom-tslint-formatters/formatters --format grouped",
     "cz": "git-cz",
     "format": "tsfmt --replace",
