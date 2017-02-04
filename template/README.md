@@ -25,7 +25,7 @@ Options
 
 Examples
   $ ${name}
-  $ ${name} --name ${author}
+  $ ${name} --name "${author}"
 ```
 
 ## Development

@@ -18,7 +18,7 @@ const help = `
 
   Examples
     $ ${name}
-    $ ${name} --name ${author}
+    $ ${name} --name "${author}"
 `;
 
 const args = meow(help, {
