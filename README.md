@@ -16,7 +16,7 @@ npm install --global tipi-cli
 ### Creating a new project using the template from github
 
 ```sh
-curl -L https://github.com/clebert/tipi-template-tslib/archive/master.tar.gz | tar -xf- --strip 1 */template
+curl -L https://github.com/clebert/tipi-template-tslib/archive/master.tar.gz | tar -xf- --strip 1 "*/template"
 ```
 
 ```sh
