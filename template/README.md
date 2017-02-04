@@ -9,12 +9,22 @@ ${description}.
 ## Installation
 
 ```sh
-npm install --save --save-exact ${name}
+npm install -g ${name}
 ```
 
 ## Usage
 
-TODO
+```
+Usage
+  $ ${name} [options]
+
+Options
+  --help, -h     Usage information
+  --version, -v  Version information
+
+Examples
+  $ ${name}
+```
 
 ## Development
 
@@ -60,6 +70,12 @@ git push --follow-tags origin master
 
 ```sh
 npm publish
+```
+
+### Starting in debug mode
+
+```sh
+DEBUG=* node ./lib/index.js
 ```
 
 ---

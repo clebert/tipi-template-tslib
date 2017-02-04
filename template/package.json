@@ -8,6 +8,7 @@
     "type": "git",
     "url": "https://github.com/${user}/${name}.git"
   },
+  "bin": "./lib/index.js",
   "engines": {
     "node": ">=6"
   },
@@ -26,6 +27,7 @@
     "commitmsg": "conventional-changelog-lint -e",
     "prebuild": "rm -rf lib/*",
     "build": "tsc --project .",
+    "postbuild": "chmod +x lib/index.js",
     "check": "tsfmt --verify && tslint --config tslint-type-check.json --project tsconfig.json --type-check --formatters-dir node_modules/custom-tslint-formatters/formatters --format grouped",
     "cz": "git-cz",
     "format": "tsfmt --replace",
@@ -39,9 +41,14 @@
     "watch:tests": "ava --watch"
   },
   "dependencies": {
+    "debug": "2.6.0",
+    "meow": "3.7.0",
     "tslib": "1.5.0"
   },
   "devDependencies": {
+    "@types/debug": "0.0.29",
+    "@types/meow": "3.6.1",
+    "@types/node": "7.0.5",
     "ava": "0.17.0",
     "commitizen": "2.9.5",
     "conventional-changelog-lint": "1.1.0",
