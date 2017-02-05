@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.12.0"></a>
+# [0.12.0](https://github.com/clebert/tipi-template-tslib/compare/v0.11.0...v0.12.0) (2017-02-05)
+
+
+### Features
+
+* **template:** add support for nyc ([38597e3](https://github.com/clebert/tipi-template-tslib/commit/38597e3))
+
+
+
 <a name="0.11.0"></a>
 # [0.11.0](https://github.com/clebert/tipi-template-tslib/compare/v0.10.0...v0.11.0) (2017-02-04)
 
