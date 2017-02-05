@@ -24,6 +24,19 @@
   "ava": {
     "verbose": true
   },
+  "nyc": {
+    "lines": 100,
+    "statements": 100,
+    "functions": 100,
+    "branches": 100,
+    "all": false,
+    "cache": false,
+    "check-coverage": true,
+    "reporter": [
+      "html",
+      "text"
+    ]
+  },
   "scripts": {
     "commitmsg": "conventional-changelog-lint -e",
     "prebuild": "rm -rf dist/*",
@@ -35,11 +48,11 @@
     "prerelease": "git checkout master && npm prune && npm install && npm test",
     "release": "standard-version",
     "pretest": "npm run build",
-    "test": "npm run check && ava",
+    "test": "npm run check && nyc ava",
     "prewatch": "npm run build",
     "watch": "run-p --continue-on-error watch:*",
     "watch:sources": "tsc --project . --watch",
-    "watch:tests": "ava --watch"
+    "watch:tests": "ava --watch --fail-fast"
   },
   "dependencies": {
     "debug": "2.6.0",
@@ -57,6 +70,7 @@
     "cz-customizable": "4.0.0",
     "husky": "0.13.1",
     "npm-run-all": "4.0.1",
+    "nyc": "10.1.2",
     "standard-version": "4.0.0",
     "ts-config": "1.2.0",
     "tslint": "4.4.2",
