@@ -27,7 +27,7 @@
   },
   "devDependencies": {
     "commitizen": "2.9.5",
-    "conventional-changelog-lint": "1.1.0",
+    "conventional-changelog-lint": "1.1.8",
     "cz-customizable": "4.0.0",
     "husky": "0.13.1",
     "standard-version": "4.0.0"
